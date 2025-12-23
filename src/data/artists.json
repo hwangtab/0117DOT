@@ -1,0 +1,106 @@
+[
+    {
+        "id": "namsoo",
+        "name": "남수",
+        "nameEn": "Namsoo",
+        "theme": "bird",
+        "themeIcon": "🐦",
+        "themeLabel": "새",
+        "themeColor": "gold",
+        "tagline": "가장 자유로운 리듬으로 날아 예술의 하늘로 비상하는 새",
+        "genre": [
+            "Indie Folk",
+            "Blues",
+            "Jazz"
+        ],
+        "vibe": [
+            "지적인",
+            "서정적인",
+            "깊이 있는"
+        ],
+        "description": "남수는 정해진 틀에 갇히지 않고 포크, 블루스, 재즈의 하늘을 자유롭게 오가는 아티스트입니다. '딱따구리 책방'이라는 둥지에서 문학과 음악을 잇던 그녀는, 이제 더 넓은 세상으로 날개짓을 시작했습니다.",
+        "longDescription": "그녀의 음악은 새벽을 깨우는 새의 지저귐처럼 맑다가도, 때로는 숲을 두드리는 딱따구리처럼 우리의 무뎌진 감각을 리드미컬하게 두드립니다. 음악과 퍼포먼스, 미술의 경계를 넘나들며 가장 자유로운 노래를 들려줄 그녀의 비행을 함께해 주세요.",
+        "image": "/images/artists/namsoo.jpg",
+        "social": "https://www.instagram.com/namsu_ggu/",
+        "youtube": "rqZmYu_kvVQ",
+        "order": 1
+    },
+    {
+        "id": "yeoul",
+        "name": "여울",
+        "nameEn": "Yeoul",
+        "theme": "leaf",
+        "themeIcon": "🍃",
+        "themeLabel": "나뭇잎",
+        "themeColor": "emerald",
+        "tagline": "도시의 소음 속에서 흔들리는 가장 순수한 초록",
+        "genre": [
+            "Acoustic",
+            "Indie Pop"
+        ],
+        "vibe": [
+            "청아한",
+            "치유하는",
+            "자연스러운"
+        ],
+        "description": "여울은 바람에 흔들리는 나뭇잎처럼, 유연하고 섬세한 감성을 노래합니다. 그녀의 음악은 꾸며내지 않은 자연스러움을 지향하며, 듣는 이의 마음을 부드럽게 어루만지는 치유의 힘을 가지고 있습니다.",
+        "longDescription": "그녀가 숨을 불어넣는 순간, 우리는 숲속 한가운데 서 있는 듯한 청량함을 느끼게 될 것입니다. 일상에 지친 당신에게 가장 편안한 휴식을 선물하는 여울의 무대를 만나보세요.",
+        "image": "/images/artists/yeoul.jpg",
+        "social": "https://www.instagram.com/yeoouul/",
+        "youtube": "D_sbStsGK-I",
+        "order": 2
+    },
+    {
+        "id": "harusali",
+        "name": "하루살이 프로젝트",
+        "nameEn": "Harusali Project",
+        "theme": "cat",
+        "themeIcon": "🐱",
+        "themeLabel": "고양이",
+        "themeColor": "coral",
+        "tagline": "완벽하지 않아서 더 완벽한, 예측불허의 비트",
+        "genre": [
+            "Lo-fi Electronic",
+            "Experimental",
+            "Alternative"
+        ],
+        "vibe": [
+            "키치한",
+            "실험적인",
+            "힙한"
+        ],
+        "description": "\"조금 구리고 화음이 안 맞아도 괜찮지 않나요?\" 하루살이 프로젝트는 현대 음악의 완벽주의에 반기를 드는 새로운 세대의 도발적인 실험실입니다.",
+        "longDescription": "개러지밴드와 로파이(Lo-fi) 사운드로 빚어낸 거칠고 투박한 질감은, 마치 제멋대로 돌아다니는 길고양이처럼 신기하고 사랑스럽습니다. 데뷔 앨범 '알 수 없는 느낌'에서 보여준 키치(Kitsch)한 감성과 '의도된 불완전함'이 라이브에서는 어떤 파동을 만들어낼까요?",
+        "image": "/images/artists/harusali.jpg",
+        "social": "https://www.instagram.com/9.17.p.m/",
+        "youtube": "JN9ML2OPteA",
+        "album": "알 수 없는 느낌",
+        "order": 3
+    },
+    {
+        "id": "ganga",
+        "name": "강가히말라야",
+        "nameEn": "Ganga Himalaya",
+        "theme": "river",
+        "themeIcon": "🌊",
+        "themeLabel": "강",
+        "themeColor": "aqua",
+        "tagline": "히말라야에서 시작되어 바다로 흐르는 영혼의 노래",
+        "genre": [
+            "World Music",
+            "Acoustic Folk",
+            "Spiritual"
+        ],
+        "vibe": [
+            "영적인",
+            "웅장한",
+            "따뜻한"
+        ],
+        "description": "인도 아우로빌(Auroville)의 자유로운 토양에서 자란 강가히말라야는 자연과 인간의 내면을 잇는 독보적인 싱어송라이터입니다.",
+        "longDescription": "그녀의 이름처럼, 그녀의 음악은 거대한 산맥의 정기와 갠지스 강의 유유한 흐름을 동시에 품고 있습니다. '천천히, 그리고 지속적으로(Slow and Steady)'라는 삶의 철학이 담긴 그녀의 목소리는, 바쁜 현대인의 시간을 잠시 멈추게 합니다.",
+        "image": "/images/artists/ganga.jpg",
+        "social": "https://www.youtube.com/@GangaHimalayaPark",
+        "youtube": "qiK7BgmPogA",
+        "order": 4
+    }
+]

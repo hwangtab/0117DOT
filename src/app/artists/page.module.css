@@ -1,0 +1,277 @@
+.page {
+    padding-top: 80px;
+}
+
+/* Hero */
+.hero {
+    padding: var(--space-20) 0 var(--space-12);
+    text-align: center;
+    background: linear-gradient(180deg, var(--color-deep-navy) 0%, var(--color-dark-surface) 100%);
+}
+
+.container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+}
+
+.title {
+    font-size: var(--text-4xl);
+    font-weight: var(--font-bold);
+    color: var(--color-text-primary);
+    margin: 0 0 var(--space-4);
+}
+
+.subtitle {
+    font-size: var(--text-xl);
+    color: var(--color-text-secondary);
+    margin: 0;
+}
+
+/* Artists Section */
+.artistsSection {
+    padding: var(--space-16) 0;
+    background: var(--color-dark-surface);
+}
+
+.artistsGrid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-12);
+}
+
+/* Artist Card */
+.artistCard {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius-2xl);
+    overflow: hidden;
+    scroll-margin-top: 100px;
+}
+
+.artistCard.gold {
+    border-left: 4px solid var(--color-bird-gold);
+}
+
+.artistCard.emerald {
+    border-left: 4px solid var(--color-leaf-emerald);
+}
+
+.artistCard.coral {
+    border-left: 4px solid var(--color-cat-coral);
+}
+
+.artistCard.aqua {
+    border-left: 4px solid var(--color-river-aqua);
+}
+
+.artistHeader {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    padding: var(--space-6);
+    background: rgba(255, 255, 255, 0.02);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.artistIcon {
+    font-size: var(--text-4xl);
+}
+
+.artistTheme {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+}
+
+.themeLabel {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.themeDivider {
+    color: var(--color-text-subtle);
+}
+
+.themeValue {
+    text-transform: capitalize;
+}
+
+/* Artist Image */
+.artistImage {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.imageLink {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-base);
+}
+
+.artistCard:hover .image {
+    transform: scale(1.05);
+}
+
+/* Artist Video */
+.artistVideo {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.videoIframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Artist Content */
+.artistContent {
+    padding: var(--space-8);
+}
+
+.artistName {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-bold);
+    color: var(--color-text-primary);
+    margin: 0 0 var(--space-4);
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+}
+
+.artistNameEn {
+    font-size: var(--text-lg);
+    font-weight: var(--font-regular);
+    color: var(--color-text-muted);
+}
+
+.artistTagline {
+    font-size: var(--text-lg);
+    font-style: italic;
+    margin: 0 0 var(--space-6);
+}
+
+.gold .artistTagline {
+    color: var(--color-bird-gold);
+}
+
+.emerald .artistTagline {
+    color: var(--color-leaf-emerald);
+}
+
+.coral .artistTagline {
+    color: var(--color-cat-coral);
+}
+
+.aqua .artistTagline {
+    color: var(--color-river-aqua);
+}
+
+/* Meta */
+.artistMeta {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+    padding: var(--space-4);
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: var(--radius-lg);
+}
+
+@media (min-width: 640px) {
+    .artistMeta {
+        flex-direction: row;
+        gap: var(--space-8);
+    }
+}
+
+.metaItem {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+}
+
+.metaLabel {
+    font-size: var(--text-xs);
+    color: var(--color-text-subtle);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.metaValue {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+}
+
+.vibes {
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+}
+
+.vibe {
+    font-size: var(--text-xs);
+    color: var(--color-text-secondary);
+    background: rgba(255, 255, 255, 0.05);
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-full);
+}
+
+/* Description */
+.artistDescription {
+    font-size: var(--text-base);
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+    margin: 0 0 var(--space-4);
+}
+
+.artistLongDescription {
+    font-size: var(--text-sm);
+    line-height: 1.8;
+    color: var(--color-text-muted);
+    margin: 0;
+}
+
+/* Album */
+.artistAlbum {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin-top: var(--space-6);
+    padding: var(--space-2) var(--space-4);
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-full);
+}
+
+.albumLabel {
+    font-size: var(--text-xs);
+    color: var(--color-text-subtle);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.albumName {
+    font-size: var(--text-sm);
+    color: var(--color-cat-coral);
+}

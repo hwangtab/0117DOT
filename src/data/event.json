@@ -1,0 +1,182 @@
+{
+    "event": {
+        "title": "새, 나뭇잎, 고양이, 그리고 강",
+        "subtitle": "네 가지 감각이 흐르는 지하의 밤",
+        "date": "2026-01-17",
+        "startTime": "18:00",
+        "endTime": "20:00",
+        "duration": 120,
+        "venue": {
+            "name": "수원 DOT",
+            "nameEn": "Suwon DOT",
+            "address": "경기 수원시 팔달구 화서문로 32번길 4, B1",
+            "description": "수원 문화의 인큐베이터라 불리는 공간"
+        }
+    },
+    "schedule": {
+        "rehearsal": [
+            {
+                "time": "16:00-16:30",
+                "duration": 30,
+                "type": "setup",
+                "content": "음향/조명 시스템 셋업 및 라인 체크"
+            },
+            {
+                "time": "16:30-16:50",
+                "duration": 20,
+                "type": "rehearsal",
+                "artist": "강가히말라야",
+                "content": "사운드 체크 & 모니터링"
+            },
+            {
+                "time": "16:50-17:10",
+                "duration": 20,
+                "type": "rehearsal",
+                "artist": "하루살이 프로젝트",
+                "content": "MR/노트북 출력 레벨, 이펙터 확인"
+            },
+            {
+                "time": "17:10-17:30",
+                "duration": 20,
+                "type": "rehearsal",
+                "artist": "여울",
+                "content": "어쿠스틱 기타/보컬 리버브 질감 확인"
+            },
+            {
+                "time": "17:30-17:50",
+                "duration": 20,
+                "type": "rehearsal",
+                "artist": "남수",
+                "content": "오프닝 멘트 마이크 체크 포함"
+            },
+            {
+                "time": "17:50-18:00",
+                "duration": 10,
+                "type": "open",
+                "content": "관객 입장 시작 / 티켓 확인"
+            }
+        ],
+        "performance": [
+            {
+                "time": "18:00-18:05",
+                "duration": 5,
+                "type": "opening",
+                "content": "호스트 등단 및 인사, 공연 기획 의도 소개"
+            },
+            {
+                "time": "18:05-18:30",
+                "duration": 25,
+                "type": "act",
+                "chapter": 1,
+                "artist": "남수",
+                "theme": "새",
+                "themeEn": "The Bird"
+            },
+            {
+                "time": "18:30-18:35",
+                "duration": 5,
+                "type": "changeover",
+                "content": "무대 전환 (남수 → 여울)"
+            },
+            {
+                "time": "18:35-19:00",
+                "duration": 25,
+                "type": "act",
+                "chapter": 2,
+                "artist": "여울",
+                "theme": "나뭇잎",
+                "themeEn": "The Leaf"
+            },
+            {
+                "time": "19:00-19:05",
+                "duration": 5,
+                "type": "changeover",
+                "content": "무대 전환 (여울 → 하루살이)"
+            },
+            {
+                "time": "19:05-19:30",
+                "duration": 25,
+                "type": "act",
+                "chapter": 3,
+                "artist": "하루살이 프로젝트",
+                "theme": "고양이",
+                "themeEn": "The Cat"
+            },
+            {
+                "time": "19:30-19:35",
+                "duration": 5,
+                "type": "changeover",
+                "content": "무대 전환 (하루살이 → 강가)"
+            },
+            {
+                "time": "19:35-20:00",
+                "duration": 25,
+                "type": "act",
+                "chapter": 4,
+                "artist": "강가히말라야",
+                "theme": "강",
+                "themeEn": "The River"
+            },
+            {
+                "time": "20:00~",
+                "duration": 0,
+                "type": "closing",
+                "content": "전 출연진 무대 인사 (커튼콜)"
+            }
+        ]
+    },
+    "chapters": [
+        {
+            "number": 1,
+            "theme": "새",
+            "themeEn": "The Bird",
+            "artist": "남수",
+            "concept": "감각의 깨움과 비상 (Awakening & Flight)",
+            "keywords": [
+                "자유",
+                "확장",
+                "비상"
+            ],
+            "description": "문장의 둥지를 박차고 나와 소리의 숲으로 날아가는 과정"
+        },
+        {
+            "number": 2,
+            "theme": "나뭇잎",
+            "themeEn": "The Leaf",
+            "artist": "여울",
+            "concept": "순수와 바람",
+            "keywords": [
+                "바람",
+                "순수",
+                "이완"
+            ],
+            "description": "지하 공간에 가상의 바람을 불어넣듯, 섬세하고 유연한 노래"
+        },
+        {
+            "number": 3,
+            "theme": "고양이",
+            "themeEn": "The Cat",
+            "artist": "하루살이 프로젝트",
+            "concept": "불완전함과 유희",
+            "keywords": [
+                "균열",
+                "위트",
+                "반전"
+            ],
+            "description": "완벽하지 않은 것이 예술이다. 계산된 실수와 즉흥성으로 현장 에너지 고조"
+        },
+        {
+            "number": 4,
+            "theme": "강",
+            "themeEn": "The River",
+            "artist": "강가히말라야",
+            "concept": "순환과 정화",
+            "keywords": [
+                "순환",
+                "정화",
+                "명상"
+            ],
+            "description": "앞선 세 무대의 에너지를 포용하며 '바다'로 향하는 명상적 엔딩"
+        }
+    ]
+}

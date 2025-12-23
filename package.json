@@ -1,0 +1,21 @@
+{
+  "name": "concert-0117",
+  "version": "0.1.0",
+  "description": "새, 나뭇잎, 고양이, 그리고 강 - 공연 홍보 웹사이트",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1"
+  }
+}

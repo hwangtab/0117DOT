@@ -1,0 +1,363 @@
+.page {
+    padding-top: 80px;
+}
+
+/* Hero */
+.hero {
+    padding: var(--space-20) 0 var(--space-12);
+    text-align: center;
+    background: linear-gradient(180deg, var(--color-deep-navy) 0%, var(--color-dark-surface) 100%);
+}
+
+.container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+}
+
+.title {
+    font-size: var(--text-4xl);
+    font-weight: var(--font-bold);
+    color: var(--color-text-primary);
+    margin: 0 0 var(--space-4);
+}
+
+.subtitle {
+    font-size: var(--text-xl);
+    color: var(--color-text-secondary);
+    margin: 0;
+}
+
+/* Poster Section */
+.posterSection {
+    padding: var(--space-16) 0;
+    background: var(--color-dark-surface);
+}
+
+.posterWrapper {
+    display: flex;
+    justify-content: center;
+    animation: fadeInUp 0.8s ease backwards;
+}
+
+.poster {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: var(--radius-2xl);
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.5),
+        0 0 40px rgba(232, 213, 116, 0.2);
+}
+
+@media (min-width: 768px) {
+    .poster {
+        max-width: 700px;
+    }
+}
+
+/* Intro */
+.intro {
+    padding: var(--space-16) 0;
+    background: var(--color-dark-surface);
+}
+
+.introContent {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.introText {
+    font-size: var(--text-lg);
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-6);
+    text-align: center;
+}
+
+.introText strong {
+    color: var(--color-bird-gold);
+}
+
+/* Journey */
+.journey {
+    padding: var(--space-20) 0;
+    background: var(--color-deep-navy);
+}
+
+.sectionTitle {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-bold);
+    color: var(--color-text-primary);
+    text-align: center;
+    margin: 0 0 var(--space-4);
+}
+
+.sectionSubtitle {
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto var(--space-12);
+}
+
+.journeyFlow {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-8);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.journeyItem {
+    text-align: center;
+    padding: var(--space-8);
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius-xl);
+    position: relative;
+}
+
+.journeyNumber {
+    font-size: var(--text-xs);
+    color: var(--color-text-subtle);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: var(--space-2);
+}
+
+.journeyIcon {
+    font-size: var(--text-5xl);
+    margin-bottom: var(--space-4);
+}
+
+.journeyTitle {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    color: var(--color-text-primary);
+    margin: 0 0 var(--space-2);
+}
+
+.journeyTitle span {
+    font-size: var(--text-sm);
+    font-weight: var(--font-regular);
+    color: var(--color-text-muted);
+}
+
+.journeyArtist {
+    font-size: var(--text-base);
+    color: var(--color-bird-gold);
+    font-weight: var(--font-medium);
+    margin: 0 0 var(--space-4);
+}
+
+.journeyConcept {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    margin: 0 0 var(--space-2);
+}
+
+.journeyDescription {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    margin: 0 0 var(--space-4);
+}
+
+.journeyKeywords {
+    display: flex;
+    gap: var(--space-2);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.keyword {
+    font-size: var(--text-xs);
+    color: var(--color-text-subtle);
+    background: rgba(255, 255, 255, 0.05);
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-full);
+}
+
+.journeyConnector {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: var(--text-xl);
+    color: var(--color-bird-gold);
+    z-index: 1;
+}
+
+/* Timeline */
+.timeline {
+    padding: var(--space-20) 0;
+    background: var(--color-dark-surface);
+}
+
+.timelineGrid {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.timelineItem {
+    display: flex;
+    gap: var(--space-4);
+    padding: var(--space-4);
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: var(--radius-lg);
+    border-left: 3px solid var(--color-bird-gold);
+}
+
+.timelineTime {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    min-width: 100px;
+    font-family: var(--font-display);
+}
+
+.timelineContent {
+    flex: 1;
+}
+
+.timelineLabel {
+    font-size: var(--text-xs);
+    color: var(--color-bird-gold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: var(--space-1);
+}
+
+.timelineArtist {
+    font-size: var(--text-lg);
+    font-weight: var(--font-semibold);
+    color: var(--color-text-primary);
+    margin: 0;
+}
+
+.timelineContent p {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    margin: 0;
+}
+
+/* Experience */
+.experience {
+    padding: var(--space-20) 0;
+    background: var(--color-deep-navy);
+}
+
+.experienceGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+    margin-top: var(--space-12);
+}
+
+@media (min-width: 768px) {
+    .experienceGrid {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: stretch;
+    }
+}
+
+.experienceCard {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: var(--space-8);
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius-xl);
+}
+
+.experienceIcon {
+    font-size: var(--text-4xl);
+    margin-bottom: var(--space-4);
+}
+
+.experienceCard h3 {
+    font-size: var(--text-xl);
+    font-weight: var(--font-semibold);
+    color: var(--color-text-primary);
+    margin: 0 0 var(--space-3);
+}
+
+.experienceCard>p {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin: 0 0 var(--space-4);
+    min-height: 4.8em;
+}
+
+.cocktails {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    margin-top: auto;
+    padding-top: var(--space-4);
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.cocktailItem {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+    padding: var(--space-3);
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-lg);
+    border-left: 3px solid var(--color-leaf-emerald);
+}
+
+.cocktailName {
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    color: var(--color-bird-gold);
+}
+
+.cocktailDesc {
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    line-height: 1.5;
+}
+
+/* Ticket and Message Details */
+.ticketDetails,
+.messageDetails {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    margin-top: auto;
+    padding-top: var(--space-4);
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.detailItem {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+    padding: var(--space-3);
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-lg);
+    border-left: 3px solid var(--color-bird-gold);
+    margin: 0;
+}
+
+.detailItem strong {
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    color: var(--color-bird-gold);
+}
+
+.detailText {
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
