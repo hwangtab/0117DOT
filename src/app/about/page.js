@@ -27,8 +27,9 @@ export default function AboutPage() {
                         <Image
                             src="/images/poster.png"
                             alt="새, 나뭇잎, 고양이, 그리고 강 공연 포스터"
-                            width={600}
-                            height={900}
+                            width={1080}
+                            height={1350}
+                            unoptimized
                             className={styles.poster}
                             priority
                         />
