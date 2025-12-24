@@ -150,7 +150,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(10, 22, 40, 0.98);
+        background: rgba(10, 22, 40, 1);
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
         padding: var(--space-8);
