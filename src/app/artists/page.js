@@ -14,7 +14,7 @@ const getArtistImagePath = (artistName) => {
         '남수': '/images/남수.png',
         '여울': '/images/여울.png',
         '하루살이 프로젝트': '/images/하루살이 프로젝트.png',
-        '강가히말라야': '/images/강가히말라야.png'
+        '강가히말라야': '/images/강가히말라야2.png'
     };
     return imageMap[artistName] || `/images/${artistName}.png`;
 };
