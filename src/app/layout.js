@@ -19,7 +19,7 @@ export const metadata = {
     description: '네 가지 감각이 흐르는 지하의 밤 - 2026.1.17 수원 DOT',
     images: [
       {
-        url: '/images/background.png',
+        url: '/images/og-image.png',
         width: 1280,
         height: 854,
         alt: '새, 나뭇잎, 고양이, 그리고 강 공연 포스터',
@@ -30,7 +30,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: '새, 나뭇잎, 고양이, 그리고 강',
     description: '네 가지 감각이 흐르는 지하의 밤 - 2026.1.17 수원 DOT',
-    images: ['/images/background.png'],
+    images: ['/images/og-image.png'],
   },
   robots: {
     index: true,
