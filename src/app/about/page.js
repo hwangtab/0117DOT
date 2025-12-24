@@ -5,6 +5,9 @@ import eventData from '@/data/event.json';
 export const metadata = {
     title: '공연 소개',
     description: '새, 나뭇잎, 고양이, 그리고 강 - 서로 다른 네 가지 감각이 공명하는 지하의 밤. 옴니버스 스토리텔링과 살롱 콘서트의 만남.',
+    alternates: {
+        canonical: '/about',
+    },
 };
 
 const chapters = eventData.chapters;

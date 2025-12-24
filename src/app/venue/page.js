@@ -4,6 +4,9 @@ import styles from './page.module.css';
 export const metadata = {
     title: '장소 안내',
     description: '수원 DOT (닷) - 경기 수원시 팔달구 화서문로 32번길 4, B1. 수원 문화의 인큐베이터.',
+    alternates: {
+        canonical: '/venue',
+    },
 };
 
 export default function VenuePage() {

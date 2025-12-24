@@ -5,6 +5,9 @@ import NotifyForm from '@/components/common/NotifyForm';
 export const metadata = {
     title: '예매 안내',
     description: '새, 나뭇잎, 고양이, 그리고 강 - 2026년 1월 17일 수원 DOT 공연 예매 안내',
+    alternates: {
+        canonical: '/tickets',
+    },
 };
 
 export default function TicketsPage() {

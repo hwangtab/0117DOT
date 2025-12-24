@@ -6,6 +6,9 @@ import artists from '@/data/artists.json';
 export const metadata = {
     title: '아티스트',
     description: '남수, 여울, 하루살이 프로젝트, 강가히말라야 - 서로 다른 결을 가진 네 팀의 아티스트를 만나보세요.',
+    alternates: {
+        canonical: '/artists',
+    },
 };
 
 // 아티스트 이미지 경로 매핑
