@@ -45,7 +45,7 @@ export default function HeroSection() {
                     </div>
                     <div className={styles.infoItem}>
                         <span className={styles.infoIcon}>📍</span>
-                        <span>수원 DOT (닷)</span>
+                        <span>수원 DOT (도트)</span>
                     </div>
                 </div>
 

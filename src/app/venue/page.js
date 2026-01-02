@@ -3,7 +3,7 @@ import styles from './page.module.css';
 
 export const metadata = {
     title: '장소 안내',
-    description: '수원 DOT (닷) - 경기 수원시 팔달구 화서문로 32번길 4, B1. 수원 문화의 인큐베이터.',
+    description: '수원 DOT (도트) - 경기 수원시 팔달구 화서문로 32번길 4, B1. 수원 문화의 인큐베이터.',
     alternates: {
         canonical: '/venue',
     },
@@ -16,7 +16,7 @@ export default function VenuePage() {
             <section className={styles.hero}>
                 <div className={styles.container}>
                     <h1 className={styles.title}>장소 안내</h1>
-                    <p className={styles.subtitle}>수원 DOT (닷)</p>
+                    <p className={styles.subtitle}>수원 DOT (도트)</p>
                 </div>
             </section>
 
@@ -29,7 +29,7 @@ export default function VenuePage() {
                             <div className={styles.venueCard}>
                                 <h2 className={styles.venueName}>
                                     <span className={styles.venueIcon}>📍</span>
-                                    수원 DOT (닷)
+                                    수원 DOT (도트)
                                 </h2>
                                 <p className={styles.venueDescription}>
                                     수원 문화의 인큐베이터라 불리는 공간 DOT.

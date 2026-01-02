@@ -49,7 +49,7 @@ export default function AboutPage() {
                             화려한 거리의 소음이 잦아드는 건물 지하 1층에 비밀스러운 문이 하나 열립니다.
                         </p>
                         <p className={styles.introText}>
-                            수원 문화의 인큐베이터라 불리는 공간 <strong>DOT (닷)</strong>에서,
+                            수원 문화의 인큐베이터라 불리는 공간 <strong>DOT (도트)</strong>에서,
                             우리는 일상의 궤도를 벗어나 전혀 다른 네 가지 세계로의 여행을 떠나려 합니다.
                         </p>
                     </div>

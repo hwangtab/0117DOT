@@ -14,7 +14,7 @@ export default function Footer() {
                         <div className={styles.eventInfo}>
                             <p className={styles.eventTitle}>새, 나뭇잎, 고양이, 그리고 강</p>
                             <p className={styles.eventMeta}>2026년 1월 17일 (토) 18:00</p>
-                            <p className={styles.eventMeta}>수원 DOT (닷)</p>
+                            <p className={styles.eventMeta}>수원 DOT (도트)</p>
                         </div>
                     </div>
 
